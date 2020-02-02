@@ -16,10 +16,23 @@ int number3, number4, modulus;
   cin >> number1;
 	cout << "Please enter Number 2: ";
   cin >> number2;
+  if (number2 <= 0)
+      {
+        cout << "The number 0 can not be used for division, please enter in a number greater than 0. ";
+        cout << "Please enter Number 2: ";
+        cin >> number2;
+      }  
+
 	cout << "Please enter Number 3 that is an integer (no decimals): ";
   cin >> number3;
 	cout << "Please enter Number 4 that is an integer (no decimals): ";
 	cin >> number4;
+  if (number4 <= 0)
+      {
+        cout << "The number 0 can not be used for division, please enter in a number greater than 0. ";
+        cout << "Please enter Number 4: ";
+        cin >> number4;
+      }  
 
 //Process
 addition = number1 + number2;
