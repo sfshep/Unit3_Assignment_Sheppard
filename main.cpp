@@ -8,8 +8,10 @@ using namespace std;
 
 int main ()
 {
-double number1, number2, addition,subtraction, multiplication, division; 
-int number3, number4, modulus;
+double number1, number2, addition, subtraction, multiplication, division; 
+int number3 = 0;
+int number4 = 0;
+int modulus = 0;
 
 //Input - ask user to input numbers.
   cout << "Please enter Number 1: ";
@@ -25,7 +27,7 @@ int number3, number4, modulus;
 
 	cout << "Please enter Number 3 that is an integer (no decimals): ";
   cin >> number3;
-	cout << "Please enter Number 4 that is an integer (no decimals): ";
+  cout << "Please enter Number 4 that is an integer (no decimals): ";
 	cin >> number4;
   while (number4 <= 0)
       {
