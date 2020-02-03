@@ -34,7 +34,7 @@ int number3, number4, modulus;
         cin >> number4;
       }  
 
-//Process
+//Process - perform calculations
 addition = number1 + number2;
 subtraction = number1 - number2;
 multiplication = number1 * number2;
@@ -43,11 +43,11 @@ modulus = number3 % number4;
 
 //Output - the values of operators
   cout << "\n \n";
-	cout << "The addition of the number 1 and number 2 equals " << addition << ".\n";
-	cout << "The subtraction of the number 2 from number 1 equals " << subtraction << ".\n";
-	cout << "The multiplication of the number 1 by number 2 equals " << multiplication << ".\n";
-	cout << "The division of the number 1 by number 2 equals " << division << ".\n";
-	cout << "The remainder of the number 3 divided by number 4 equals " << modulus << ".\n";
+	cout << "The addition of Number 1 and Number 2 equals " << addition << ".\n";
+	cout << "The subtraction of Number 2 from Number 1 equals " << subtraction << ".\n";
+	cout << "The multiplication of  Number 1 by Number 2 equals " << multiplication << ".\n";
+	cout << "The division of  Number 1 by Mumber 2 equals " << division << ".\n";
+	cout << "The remainder of  Number 3 divided by Number 4 equals " << modulus << ".\n";
 
 
 return 0;
